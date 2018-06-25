@@ -1,0 +1,48 @@
+@charset "utf-8";
+html{
+    font-size: 10px;
+}
+
+body{
+    /* background-color: rgba(255,0,0,0.5);
+    background-image: linear-gradient(45deg,rgba(0,255,0,0.2),rgba(0,0,255,0.2));
+    background-repeat: repeat-x;
+    background-position: 0 100px; */
+
+    background-color:black;
+    background-image:
+    radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
+    radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
+    radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
+    radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+    background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px; 
+    background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+
+    color: cornsilk;
+    font-size: 2rem;
+
+}
+
+h1{
+    font-size: 48px;
+}
+
+h2{
+    font-size: 3em;
+}
+
+h3{
+    font-size: 300%;
+}
+
+h4{
+    font-size: 3rem;
+}
+
+h5{
+    font-size: 10vw;
+}
+
+h6{
+    font-size: 30pt;
+}
